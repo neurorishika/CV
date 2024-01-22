@@ -1,0 +1,441 @@
+%-------------------------
+% Curriculum Vitae in Latex
+% Author : Rishika Mohanta
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,9pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4}
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingWithText}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4}
+    \end{tabular*}\vspace{2pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Rishika Mohanta} & Email : \href{mailto:rmohanta@rockefeller.edu}{rmohanta@rockefeller.edu}\\
+  Graduate Fellow, The Rockefeller University & \href{mailto:neurorishika@gmail.com}{neurorishika@gmail.com}\\
+  \href{http://neurorishika.github.io/}{http://neurorishika.github.io} & Mobile : \href{tel:+15713469557}{+1-571-346-9557} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheadingWithText
+      {The Rockefeller University}{New York, NY, USA}
+      {Graduate Fellow in David Rockefeller Graduate Program in Biosciences}{Sep. 2023 -- Present}
+      \small{Rotations: Dr. Daniel Kronauer, Dr. Priya Rajasethupathy}
+    \resumeSubheadingWithText
+      {Indian Institute of Science Education and Research}{Pune, India}
+      {Bachelor of Science and Master of Science (with Distinction);  GPA: 3.94 (9.8/10.0)}{Aug. 2017 -- Dec. 2022}
+      \small{Masters Thesis: \textit{Deciphering learning rules underlying choice behavior in D. melanogaster using a model-driven approach}
+      Advisor: Dr. Glenn Turner (HHMI Janelia Research Campus, Ashburn, VA, USA)}
+  \resumeSubHeadingListEnd
+
+%-----------WORK HISTORY-----------------
+\section{Work History}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {HHMI Janelia Research Campus (Turner Lab)}{Kolkata, India}
+      {Offsite Consultant (Remote)}{Mar. 2023 - Aug. 2023}
+
+    \resumeSubheading
+    {HHMI Janelia Research Campus (Turner Lab)}{Ashburn, VA, USA}
+    {Research Technician}{Feb. 2022 - Jan. 2023}
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheadingWithText
+      {Rajasethupathy Lab, The Rockefeller University}{New York, NY, USA}
+      {Rotation Student}{Dec. 2023 - Present}
+      \small{Advisor: Dr. Priya Rajasethupathy and Dr. Andrew Luskin}
+      \resumeItemListStart
+        \resumeItem{Calcium Imaging of Cortical Neurons during Working Memory Tasks}
+          {Worked on using mesoscope-based wide-field 2-photon imaging to study frontal cortex neural activity in head-fixed mice undergoing training on multisensory delayed non-match to sample (DNMS) and multisensory delayed match to sample (DMS) tasks.}
+        \resumeItem{Classical 4/8 Radial Maze Task in Mice}
+          {Worked on establishing a pilot 4/8 radial maze task in mice to study the interaction between working memory and reference memory.}
+      \resumeItemListEnd
+      
+    \resumeSubheadingWithText
+      {Kronauer Lab, The Rockefeller University}{New York, NY, USA}
+      {Rotation Student}{Sep. 2023 - Dec. 2023}
+      \small{Advisor: Dr. Daniel Kronauer, Dr. Dominic Frank, Dr. Alexander Paul and Lindsey Lopes}
+      \resumeItemListStart
+        \resumeItem{Standard Brain for \textit{Ooceraea biroi} (Clonal Raider Ant)}
+          {Worked on creating the standard brain for \textit{Ooceraea biroi} (Clonal Raider Ant) using non-linear registration techniques.}
+        \resumeItem{Clonal Raider Ant Object Preference}
+          {Assessed Clonal Raider Ant object preference in collaboration with Dr. Alexander Paul.}
+      \resumeItemListEnd
+
+      \resumeSubheadingWithText
+      {Turner Lab, HHMI Janelia Research Campus}{Ashburn, VA, USA}
+      {Master’s Student and Consulting Researcher}{Feb. 2022 - August. 2023}
+      \small{Advisor: Dr. Glenn Turner}
+      \resumeItemListStart
+        \resumeItem{High-throughput Olfactory Y-Maze Foraging Assay}
+          {Worked on developing a high-throughput olfactory Y-maze foraging assay for \textit{Drosophila melanogaster} for discovering cognitive computations performed by flies in dynamic probabilistic environments. Also, modeled behavior under a value-learning framework.}
+        \resumeItem{Decoding Decision-Making in Fruit Flies}
+          {Worked on decoding decision-making in fruit flies by examining cognitive variables with high-throughput 2AFC (Two-Alternative Forced Choice) assays and computational models of mushroom body circuitry. Collaborated with Dr. Kevin Miller and Dr. Maria Eckstein at Google Deepmind, London, UK.}
+        \resumeItem{Probing Diverse Foraging Strategies}
+          {Enumerated and discovered discriminative tasks for probing diverse foraging strategies in collaboration with Tzushuan Ma at Hermundstad Lab, HHMI Janelia Research Campus, Ashburn, VA, USA.}
+      \resumeItemListEnd
+
+      \resumeSubheadingWithText
+      {iCART (India COVID19 Apex Research Team), AIIMS, Delhi}{India}
+      {Lead in Statistics and Data Analysis}{May 2020 - Feb. 2021}
+      \small{Advisor: Dr. Giridhara Gopal Parameswaran and Dr. Mohit Gupta}
+      \resumeItemListStart
+        \resumeItem{COVID-19 Transmission Dynamics Tracking}
+          {Worked on frameworks for tracking the transmission dynamics of the COVID-19 epidemic in India, including statistical analysis and data interpretation.}
+        \resumeItem{Modeling Optimal Lockdown Exit Strategies}
+          {Collaborated on modeling and evaluating optimal lockdown exit strategies to manage the COVID-19 pandemic.}
+        \resumeItem{Co-Lead in ML and DL and www.covidtoday.in}
+          {Co-led the Machine Learning (ML) and Deep Learning (DL) efforts within the team, contributing to data-driven approaches for COVID-19 analysis and Co-led the development and maintenance of the website www.covidtoday.in, providing valuable COVID-19 information to the public.}
+      \resumeItemListEnd
+
+      \resumeSubheadingWithText
+      {Theoretical Neuroscience Lab, Indian Institute of Science Education and Research}{Pune, India}
+      {Undergraduate Researcher}{Dec. 2018 - Jan. 2022}
+      \small{Advisor: Dr. Collins Assisi}
+      \resumeItemListStart
+        \resumeItem{Biological Neural Network Simulator}
+          {Developed a general-purpose biological neural network simulator in Python utilizing GPU-based parallel processing for computation speedup.}
+          \resumeItem{Modeling the Olfactory System of Locusts in Complex Odor Environments}
+          {Worked on building a model of the Locust Olfactory system to develop a theory for odor coding in complex intermittent odor environments.}
+        
+      \resumeItemListEnd
+    \resumeSubheadingWithText
+      {Turner Lab, HHMI Janelia Research Campus}{Ashburn, VA, USA}
+      {Janelia Undergraduate Scholar}{May 2019 - Aug. 2019}
+      \small{Advisors: Dr. Glenn Turner and Dr. Yichun Shuai}
+      \resumeItemListStart
+        \resumeItem{Olfactory Learning in Virtual Reality}
+          {Developed a pilot closed-loop olfactory virtual reality system for studying olfactory learning in \textit{Drosophila melanogaster} to study the circuitry underlying olfactory learning.}
+      \resumeItemListEnd
+    \resumeSubheadingWithText
+      {Naturalist Inspired Chemical Ecology Lab, National Centre for Biological Sciences}{Bangalore, India}
+      {Summer Intern}{Apr. 2018 - Jun. 2018}
+      \small{Advisor: Dr. Shannon Olsson, Dr. Geetha GT and Dr. Pavan Kumar Kaushik}
+      \resumeItemListStart
+        \resumeItem{Effect of Air Pollution on Giant Honey Bee}
+          {Studied the effect of air pollution on Giant Honey Bee physiology and morphology.}
+        \resumeItem{Decision Making of Apple Maggot Fly in Virtual Reality}
+          {Developed code for studying decision-making behavior of Apple Maggot Fly in Virtual Reality using Unity Game Engine.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TEACHING AND MENTORSHIP-----------------
+\section{Teaching and Mentorship Experience}
+\resumeSubHeadingListStart
+\resumeSubheadingWithText
+  {Tri-Institute Mentorship Initiative 2023}{Aug. 2023 - Dec. 2023}
+  {Graduate Admission Mentor}{4 sessions, 6 hours}
+  \small{Mentored a student one-on-one to prepare for the 2023-24 Graduate School application season and guided student on finding potential interest areas, networking with potential HOLs and preparing research and personal statements.}
+  
+\resumeSubheadingWithText
+  {Neuromatch Deep Learning 2021}{Jul. 2021 - Aug. 2021}
+  {Project Teaching Assistant}{3 weeks, 120 hours}
+  \small{Mentored 7 student groups with 3-7 students each from different time zones, countries, and cultures around the world for three-week projects on utilizing Deep Learning (DL) techniques in the field of neuroscience.}
+  
+\resumeSubheadingWithText
+  {Neuromatch Computational Neuroscience 2021}{Jun. 2021 - Jul. 2021}
+  {Teaching Assistant}{3 weeks, 120 hours}
+  \small{Closely mentored and led daily tutorials on modeling in computational neuroscience for a group of 6 students from different countries and cultures around the world for three weeks.}
+  
+\resumeSubheadingWithText
+  {IISER Pune Data Analysis and Machine Learning in Python Bootcamp}{Sep. 2017}
+  {Workshop Instructor}{3 sessions, 15 hours}
+  \small{Instructed a series of workshops on using Python (Numpy, Pandas, Seaborn, and Scikit-Learn) for data analysis and scientific visualization. Also, introduced participants to Deep Learning using multilayer perceptrons.}
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+
+\section{Academic Publications / Preprints}
+\resumeSubHeadingListStart
+    \resumeSubItem{Deciphering value learning rules in fruit flies using a model-driven approach}
+      {\textbf{Mohanta, R.}, 2022. \emph{IISER Pune Digital Repository}. \href{http://dr.iiserpune.ac.in:8080/xmlui/handle/123456789/7503}{[Link]}}
+    
+    \resumeSubItem{Parallel scalable simulations of biological neural networks using TensorFlow: A beginner's guide}
+      {\textbf{Mohanta, R.} and Assisi, C., 2022. \emph{Neurons, Behavior, Data Analysis and Theory.} \href{https://arxiv.org/abs/1906.03958}{[Link]} \href{https://doi.org/10.51628/001c.37893}{[DOI]}}
+    
+    \resumeSubItem{Contact Tracing of COVID-19 in Karnataka, India: Superspreading and Determinants of Infectiousness and Symptomaticity}
+      {Gupta, M., Parameswaran, G. G., Sra, M. S., \textbf{Mohanta, R.}, Patel, D., Gupta, A., B., … and Babu, G. R., 2022. \emph{PLOS ONE 17(7): e0270789.} \href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270789}{[Link]}}
+    
+    \resumeSubItem{Transmission dynamics of the COVID-19 epidemic in India and modeling optimal lockdown exit strategies}
+      {Gupta, M.*, \textbf{Mohanta, R.*}, Rao, A., Parameswaran, G. G., Agarwal, M., Arora, M., ... and Kumar, R., 2020. \emph{International Journal of Infectious Diseases.} \href{https://www.ijidonline.com/article/S1201-9712(20)32752-5/fulltext}{[Link]} \href{https://doi.org/10.1016/j.ijid.2020.11.206}{[DOI]}}
+    
+    \resumeSubItem{A field-based quantitative analysis of sublethal effects of air pollution on pollinators}
+      {Thimmegowda, G.G., Mullen, S., Sottilare, K., Sharma, A., \textbf{Mohanta, R.}, Brockmann, A., Dhandapany, P.S. and Olsson, S.B., 2020. \emph{Proceedings of the National Academy of Sciences, 117(34).} \href{https://www.pnas.org/content/117/34/20653}{[Link]} \href{https://doi.org/10.1073/pnas.2009074117}{[DOI]}}
+    
+    \resumeSubItem{Geographical variation in case fatality rate and doubling time during the COVID-19 pandemic}
+      {Mazumder, A., Arora, M., Sra, M.S., Gupta, A., Behera, P., Gupta, M., Agarwal, M., Rao, A., \textbf{Mohanta, R.}, Parameswaran, G.G. and Lohiya, A., 2020. \emph{Epidemiology \& Infection, 148.} \href{https://www.cambridge.org/abstract_S0950268820001685}{[Link]} \href{https://doi.org/10.1017\%2FS0950268820001685}{[DOI]}}
+\resumeSubHeadingListEnd
+
+%-----------TALKS / PANELS-----------------
+
+\section{Talks / Panels}
+\resumeSubHeadingListStart
+    \resumeSubItem{Contributed Talk on "Deciphering value learning rules in fruit flies using a model-driven approach"}
+      {Janelia Annual Symposia 2023}
+    
+    \resumeSubItem{Contributed Talk on "Deciphering the Dynamics of Locust Olfactory System"}
+      {Monsoon Brain Meeting 2020. Watch the talk \href{https://youtu.be/Xjh9elI_VkA?si=XlMbpLy421pNDD-y}{\textbf{here.}}}
+    
+    \resumeSubItem{Contributed Talk on "Pluralistic Approach to Decoding Motor Activity from Different Brain Regions"}
+      {Neuromatch 3.0 conference 2020. Watch the talk \href{https://youtu.be/oLC2P358_RM?si=b4KRY88IYMdvX7Er}{\textbf{here.}}}
+    
+    \resumeSubItem{Panelist for "Youth-Led Neuroscience Initiatives"}
+      {On behalf of DiverseNeuro.org @ NeuroNovember convention organized by Project Encephalon and Stimulus}
+\resumeSubHeadingListEnd
+
+
+%-----------CONFERENCE PRESENTATIONS-----------------
+
+\section{Conference Posters}
+\resumeSubHeadingListStart
+    \resumeSubItem{Enumerating and discovering highly discriminative tasks for probing the cognitive architecture underlying complex behavior}
+      {\textbf{Ma, T.*}, \textbf{Mohanta, R.*}, Turner, G., Hermundstad, A. (*joint first authors) presented at Conference on Cognitive Computational Neuroscience 2023 by T. Ma. \href{https://www.doi.org/10.32470/CCN.2023.1217-0}{[DOI]}}
+    
+    \resumeSubItem{Deciphering value learning rules underlying in fruit-flies using a model-driven approach}
+      {\textbf{Mohanta, R.} \& Turner, G. presented at Society for Neuroscience (SfN) 2022 conference. \href{https://doi.org/10.6084/m9.figshare.21383697}{[DOI]}}
+    
+    \resumeSubItem{Parallel scalable simulations of biological neural networks using TensorFlow: A beginner's guide}
+      {\textbf{Mohanta, R.} \& Assisi, C. presented at Society for Neuroscience (SfN) 2022 conference. \href{https://doi.org/10.6084/m9.figshare.21383895}{[DOI]}}
+    
+    \resumeSubItem{Invariant neural representations of fluctuating odor inputs}
+      {\textbf{Mohanta, R.}, Adithyan, S. \& Assisi, C. presented at Society for Neuroscience (SfN) 2022 conference. \href{https://doi.org/10.6084/m9.figshare.21383898}{[DOI]}}
+    
+    \resumeSubItem{Intermittent inputs reveal invariant odor representations}
+      {\textbf{Mohanta, R.} \& Assisi, C. presented at the Society for Neuroscience (SfN) 2021 conference virtually by C. Assisi. \href{https://doi.org/10.6084/m9.figshare.18972815.v2}{[DOI]}}
+    
+    \resumeSubItem{Odor coding by attractor switching in the locust antennal lobe}
+      {\textbf{Mohanta, R.}, Assisi, C. presented at Society for Neuroscience (SfN) virtual connectome 2021. \href{https://doi.org/10.6084/m9.figshare.13517570.v1}{[DOI]}}
+    
+    \resumeSubItem{Pluralistic Approach to Decoding Motor Activity from Different Brain Regions}
+      {\textbf{Mohanta, R.}, Singh, N., Sharma, V., \& Nayak, P. presented a talk at Neuromatch 3.0 2020. \href{https://doi.org/10.6084/m9.figshare.13164365.v1}{[DOI]}}
+    
+    \resumeSubItem{Investigating Odor-based Learning in Closed-Loop Fly-on-Ball VR}
+      {\textbf{Mohanta, R.}, Shuai, Y., Turner G.C. Poster presented at Janelia Undergraduate Scholar Symposium 2019, Asia-Pacific Drosophila Research Conference 5 2020, Virtual Dopamine 2020 conference. \href{https://doi.org/10.6084/m9.figshare.9751004.v2}{[DOI]}}
+    
+    \resumeSubItem{Deciphering the Dynamics of Locust Olfactory System}
+      {\textbf{Mohanta, R.} and Assisi, C., 2020. Poster presented at No Garland Neuroscience 2020 conference. \href{https://doi.org/10.6084/m9.figshare.12073056}{[DOI]}}
+\resumeSubHeadingListEnd
+
+\section{Scholarships and Awards}
+\resumeSubHeadingListStart
+    \resumeSubItem{2024}
+      {Rockefeller University BIOGROW (Bioscience Initiative for Outreach, Growth, and Research Optimization for Well-rounded Students) Program Scholar}
+    \resumeSubItem{2021}
+      {Society for Neuroscience (SfN) Trainee Professional Development Award}
+    \resumeSubItem{2020}
+      {ALBA-FKNE-YIBRO Diversity Grant for Attending FENS 2020}
+    \resumeSubItem{2020}
+      {DAAD-WISE Scholar (Travel canceled due to COVID-19)}
+    \resumeSubItem{2019}
+      {Special Mention (Best Poster) at the Asia-Pacific Drosophila Research Conference 5}
+    \resumeSubItem{2019}
+      {Janelia Undergraduate Scholar 2019}
+    \resumeSubItem{2018}
+      {IISER Pune Award for Academic Excellence}
+    \resumeSubItem{2018-22}
+      {Kishore Vaigyanik Protsahan Yojna (KVPY) Fellow}
+    \resumeSubItem{2017-18}
+      {DST-Inspire SHE Scholarship}
+    \resumeSubItem{2015}
+      {Mamraj Agarwal Award for Academic Excellence}
+\resumeSubHeadingListEnd
+
+%-----------CONFERENCES / WORKSHOPS / SUMMER SCHOOLS-----------------
+
+\section{Conferences / Workshops / Summer Schools}
+\resumeSubHeadingListStart
+    \resumeSubItem{2024}
+      {\textbf{Speaker} and \textbf{Poster Co-author} at Cosyne 2024.}
+    
+    \resumeSubItem{2024}
+      {\textbf{Speaker} and \textbf{Co-organizer} at HHMI Conference on Bridging Diverse Perspectives on the Mechanistic Basis of Foraging.}
+    
+    \resumeSubItem{2023}
+      {\textbf{Participant} at SfN Responsible Conduct of Research Short Course on RCR Short Course: Responsible Use of AI in Neuroscience Research and Education 2023.}
+    
+    \resumeSubItem{2022}
+      {\textbf{Poster Presenter} at Society for Neuroscience (SfN) Conference 2022.}
+    
+    \resumeSubItem{2022}
+      {\textbf{Participant} at HHMI Janelia Agent-Based Modelling Workshop 2022.}
+    
+    \resumeSubItem{2022}
+      {\textbf{Participant} at Janelia Elevator Pitch Workshop 2022.}
+    
+    \resumeSubItem{2022}
+      {\textbf{Participant} at Establishing a Brand Online Workshop 2022.}
+    
+    \resumeSubItem{2022}
+      {\textbf{Participant} at SfN Responsible Conduct of Research Short Course on Tackling Challenges in Data Management, Collection, Sharing Workshop 2022.}
+    
+    \resumeSubItem{2021}
+      {\textbf{Poster Presenter} at SfN Virtual Connectome 2021 Conference.}
+    
+    \resumeSubItem{2021}
+      {\textbf{Teaching Assistant} and \textbf{Volunteer} at Neuromatch Computational Neuroscience Summer School 2021.}
+    
+    \resumeSubItem{2021}
+      {\textbf{Teaching Assistant} and \textbf{Volunteer} at Neuromatch Deep Learning Summer School 2021.}
+    
+    \resumeSubItem{2020}
+      {\textbf{Poster Presenter} and \textbf{Organizing Team Member} at No Garland Neuroscience 2020.}
+    
+    \resumeSubItem{2020}
+      {\textbf{Poster Presenter} at Asia-Pacific Drosophila Research Conference 5.}
+    
+    \resumeSubItem{2020}
+      {\textbf{Volunteer} and \textbf{Abstract Reviewer} at Neuromatch 2.0 Conference.}
+    
+    \resumeSubItem{2020}
+      {\textbf{Poster Presenter} at Virtual Dopamine Conference 2020.}
+    
+    \resumeSubItem{2020}
+      {\textbf{Speaker} and \textbf{Moderator} at Monsoon Brain Meeting 2020.}
+    
+    \resumeSubItem{2020}
+      {\textbf{Summer School Participant} at Neuromatch Computational Neuroscience Summer School 2020.}
+    
+    \resumeSubItem{2020}
+      {\textbf{Speaker} at Neuromatch 3.0.}
+    
+    \resumeSubItem{Attendee}
+      {Society for Neuroscience Conference 2023; HHMI Conference on Structure and Function of the Insect Central Complex 2022; Neuromatch 1.0; The Allied Genetic Conference 2020; Neurizons 2020; Workshop on Physics in Animal Behavior 2020; Vision Researchers Colloquium 2020; 2020 International Conference on Mathematical Neuroscience; FENS Virtual Forum of Neuroscience 2020; Bernstein Conference 2020.}
+\resumeSubHeadingListEnd
+
+%--------OTHER PUBLICATIONS------------
+
+\section{Other Publications}
+\resumeSubHeadingListStart
+    \resumeSubItem{Blossoming Together}
+      {Published in the Magazine "Persephone" by the Wajood Foundation, India. \href{https://linktr.ee/PersephoneMagazine}{[Link to Article]}}
+    
+    \resumeSubItem{From Loneliness to Solidarity}
+      {Published in the Magazine "Unspoken" by the Center for Regional Research and Sustainability Studies, India. \href{https://web.archive.org/web/20220526081751/https://www.thinkcrrss.com/post/from-loneliness-to-solidarity}{[Link to Article]}}
+\resumeSubHeadingListEnd
+
+%--------Scientific Skills------------
+\section{Scientific Skills}
+\resumeSubHeadingListStart
+\resumeSubItem{\textbf{Biological techniques}}{Insect Field Collection and Physiology; Closed Loop VR and High Throughput Behavioral Rig Design for Model Species; Drosophila Genetics; Insect Brain Dissection; Template Brain Creation and Registration; 2p Calcium Imaging}
+\resumeSubItem{\textbf{Computation and Theory}}{Programming languages (Python, MATLAB/Octave, R, C, C++, Java, Javascript, Julia); Computational Modelling of Neurons and Neuronal Networks; Deep Learning and Reinforcement Learning; Statistical Inference and Bayesian Modelling using MCMC methods.}
+\resumeSubItem{\textbf{Others}}{Epidemiological Modelling; Frontend/UI design (HTML5, CSS, Bootstrap.js); (Micro/Macro)Economic Theory; Game Theory; Introductory Psychology.}
+\resumeSubHeadingListEnd
+
+%--------Extracurricular Positions------------
+\section{Extracurricular Positions}
+\resumeSubHeadingListStart
+\resumeSubItem{Karavaan 19 Sponsorship Coordinator}{IISER Pune College Fest, Maharashtra, India.}
+\resumeSubItem{Mimamsa 19 Chemistry}{Question Making Team Leader, Maharashtra, India.}
+\resumeSubItem{Karavaan 18 Design Coordinator}{IISER Pune College Fest, Maharashtra, India.}
+\resumeSubItem{Spread the Smile Volunteer}{DISHA NGO, IISER Pune, Maharashtra, India.}
+\resumeSubItem{Freelance Developer and Graphics Artist}{with Dextrax Studios, Kolkata, India.}
+\resumeSubHeadingListEnd
+
+%--------Certifications------------
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeSubItem{Life Sciences and Medicine}{Bugs 101 (University of Alberta), Advanced Neurobiology I \& II (Peking University), Fundamentals of Immunology Specialization (3 Courses) (Rice University), Transgender Medicine for General Medical Providers (Icahn School of Medicine at Mount Sinai)}
+\resumeSubItem{Psychology and Economics}{Introduction to Psychology (Yale University), Psychological First Aid (Johns Hopkins University), QPR (Question, Persuade, Refer) Suicide Prevention Training (QPR Institute), Microeconomics Principles (University of Illinois at Urbana-Champaign), Introduction to Economic Theories (Erasmus University Rotterdam), Logic for Economists (University of Amsterdam), Welcome to Game Theory (The University of Tokyo), An Introduction to Consumer Neuroscience \& Neuromarketing (Copenhagen Business School)}
+\resumeSubItem{Politics, Philosophy and Sociology}{Revolutionary Ideas: Utility, Justice, Equality, Freedom (Rutgers the State University of New Jersey), Moral Foundations of Politics (Yale University), Introduction to Philosophy (The University of Edinburgh), Data Science Ethics (University of Michigan), Feminism and Social Justice (University of California, Santa Cruz), Community Organizing for Social Justice (University of Michigan), Queering Identities: LGBTQ+ Sexuality and Gender Identity (University of Colorado System), Gender and Sexuality: Diversity and Inclusion in the Workplace (University of Pittsburgh), What does it mean to identify as Transgender or Gender Non-Conforming (TGNC)? (University of Minnesota)}
+\resumeSubItem{Machine Learning and Statistics}{Bayesian Statistics (University of California, Santa Cruz), Stochastic Processes: Data Analysis and Computer Simulation (Kyoto University), Introduction to Linear Models and Matrix Algebra (Harvard University), Statistics and R (Harvard University), Deep Learning 101 (IBM) on cognitiveclass.ai, Zero to Deep Learning™ with Python and Keras (Data Weekends, Jose Portilla), Machine Learning (Stanford University), Machine Learning and Data Science with Python (Jose Portilla)}
+\resumeSubItem{Miscellaneous}{Julia Scientific Programming (University of Cape Town), Master C Programming (Mohammad el-haj), Introduction to Typography (California Institute of the Arts), Front End Development Program (FreeCodeCamp) on FCC}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
