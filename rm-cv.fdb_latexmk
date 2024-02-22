@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1705872825 "/Users/neurorishika/Library/CloudStorage/OneDrive-Personal/Documents/Official Documents/CV/rm-cv.tex" "rm-cv.pdf" "rm-cv" 1705872827 0
-  "/Users/neurorishika/Library/CloudStorage/OneDrive-Personal/Documents/Official Documents/CV/rm-cv.tex" 1705872825 26364 1874fafc18cc4f7d49576f214dce6ead ""
+["pdflatex"] 1708637912 "/Users/neurorishika/Library/CloudStorage/OneDrive-Personal/Documents/Official Documents/CV/rm-cv.tex" "rm-cv.pdf" "rm-cv" 1708637914 0
+  "/Users/neurorishika/Library/CloudStorage/OneDrive-Personal/Documents/Official Documents/CV/rm-cv.tex" 1708637912 26798 305568d85f102ec05073ed5e21ef440b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1136768653 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
@@ -95,9 +95,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1705697465 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1705697369 7883461 a9435fb4dc0c456a28799a350b8fe143 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "rm-cv.aux" 1705872827 2179 f75d2bbd1a36f5edd28a30c1e71b76da "pdflatex"
-  "rm-cv.out" 1705872827 2010 e74fb0ca976b4e6396b2684765bc40c6 "pdflatex"
-  "rm-cv.tex" 1705872825 26364 1874fafc18cc4f7d49576f214dce6ead ""
+  "rm-cv.aux" 1708637913 2179 c25f38fe25b78abf381bd72f059421c2 "pdflatex"
+  "rm-cv.out" 1708637913 2010 e74fb0ca976b4e6396b2684765bc40c6 "pdflatex"
+  "rm-cv.tex" 1708637912 26798 305568d85f102ec05073ed5e21ef440b ""
   (generated)
   "rm-cv.aux"
   "rm-cv.log"
